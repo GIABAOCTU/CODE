@@ -1,5 +1,5 @@
 //Ho va ten  < Tran Gia Bao > - Ma So SV : < B1811918 >
-//Ho va ten  < Nguyen Hoai Linh > - Ma So SV : <B1812050 >
+
 
 #include<stdlib.h>
 #include<stdio.h>
@@ -77,7 +77,7 @@ void merge(int arr[], int l, int m, int r)
         k++;
     }
 
-    //Sao chÈp c·c phan tu cÚn lai cua mang L v‡o arr 
+    //Sao ch√©p c√°c phan tu c√≤n lai cua mang L v√†o arr 
     while (i < n1)
     {
         arr[k] = L[i];
@@ -85,7 +85,7 @@ void merge(int arr[], int l, int m, int r)
         k++;
     }
 
-    // Sao chÈp c·c phan tu cÚn lai cua mang R v‡o arr
+    // Sao ch√©p c√°c phan tu c√≤n lai cua mang R v√†o arr
     while (j < n2)
     {
         arr[k] = R[j];
